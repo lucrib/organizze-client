@@ -5,9 +5,11 @@ verify_ssl = true
 
 [dev-packages]
 pytest = ">= 5.3"
+setuptools-scm = "*"
+setuptools = ">= 40.0"
 
 [packages]
 requests = ">= 2.22.0"
 
 [requires]
-python_version = ">= 3.6"
+python_version = ">= 3.5"
