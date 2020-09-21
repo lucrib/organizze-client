@@ -22,7 +22,7 @@ class OrganizzeClient:
     CREDIT_CARDS = 'credit_cards/'
     CREDIT_CARD = CREDIT_CARDS + '{credit_card_id}/'
     CREDIT_CARD_INVOICES = CREDIT_CARD + 'invoices'
-    CREDIT_CARD_INVOICE = CREDIT_CARD_INVOICES + '{invoice_id}/'
+    CREDIT_CARD_INVOICE = CREDIT_CARD_INVOICES + '/{invoice_id}/'
     CREDIT_CARD_INVOICE_PAYMENTS = CREDIT_CARD_INVOICE + 'payments'
     # Transactions
     TRANSACTIONS = 'transactions/'
